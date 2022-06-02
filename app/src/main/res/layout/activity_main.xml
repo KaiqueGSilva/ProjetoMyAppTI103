@@ -33,7 +33,7 @@
             android:drawableRight="@drawable/ic_baseline_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Insira seu email"
+            android:hint="@string/insira_seu_email"
             android:inputType="textEmailAddress"
             android:maxLength="50"
             android:padding="10sp"
@@ -42,7 +42,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Senha"
+            android:text="@string/senha"
             android:textColor="#0A2B87"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -50,7 +50,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Insira sua senha"
+            android:hint="@string/insira_sua_senha"
             android:drawableRight="@drawable/ic_baseline_lock"
             android:inputType="textPassword"
             android:maxLength="50"
