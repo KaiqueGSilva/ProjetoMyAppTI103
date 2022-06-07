@@ -3,4 +3,9 @@
     <string name="insira_seu_email">Insira seu email</string>
     <string name="senha">Senha</string>
     <string name="insira_sua_senha">Insira sua senha</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="recuperar_senha">Recuperar senha</string>
+    <string name="login">Login</string>
+    <string name="facebook">Facebook</string>
+    <string name="senha_">Senha</string>
 </resources>

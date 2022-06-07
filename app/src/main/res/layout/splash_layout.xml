@@ -6,44 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".SplashActivity">
 
-    <TextView
-        android:id="@+id/textTextoA"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Texto A"
-        android:textColor="#000"
-        android:textSize="50sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textTextoB"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/textTextoA"
-        android:text="Texto B"
-        android:textColor="#DD2525"
-        android:textSize="50sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textTextoC"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textTextoA"
-        android:text="Texto C"
-        android:textColor="#3F51B5"
-        android:textSize="50sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textTextoD"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textTextoB"
-        android:layout_toRightOf="@+id/textTextoC"
-        android:text="Texto D"
-        android:textColor="#9C27B0"
-        android:textSize="50sp"
-        android:textStyle="bold" />
+    <ImageView
+        android:layout_centerInParent="true"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/dog" />
 
 </RelativeLayout>

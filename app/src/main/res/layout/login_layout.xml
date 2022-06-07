@@ -1,48 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:stretchColumns="1"
+    android:orientation="vertical"
     tools:context=".LoginActivity">
 
-    <TableRow>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="25dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dog" />
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:hint="@string/e_mail"
+            android:inputType="textEmailAddress"
+            android:maxLength="50"
+            android:paddingBottom="20sp" />
+
+        <EditText
+            android:id="@+id/edtSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/senha_"
+            android:inputType="textPassword"
+            android:maxLength="50"
+            android:paddingBottom="20sp" />
 
         <TextView
+            android:id="@+id/txtRecuperarSenha"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Texto A"
-            android:textColor="#4CAF50"
-            android:textSize="40sp" />
+            android:layout_gravity="end"
+            android:layout_marginBottom="30sp"
+            android:text="@string/recuperar_senha"
+            android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="wrap_content"
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Texto B"
-            android:textColor="#8BC34A"
-            android:textSize="40sp" />
-    </TableRow>
+            android:padding="15dp"
+            android:text="@string/login" />
 
-    <TableRow>
-
-        <TextView
-            android:layout_width="wrap_content"
+        <Button
+            android:onClick="abrirFacebook"
+            android:id="@+id/btnFacebook"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Texto C"
-            android:textColor="#CDDC39"
-            android:textSize="40sp" />
+            android:backgroundTint="@color/corFacebook"
+            android:padding="15dp"
+            android:text="@string/facebook" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Texto D"
-            android:textColor="#FFEB3B"
-            android:textSize="40sp" />
-    </TableRow>
-
-</TableLayout>
+    </LinearLayout>
+</LinearLayout>
