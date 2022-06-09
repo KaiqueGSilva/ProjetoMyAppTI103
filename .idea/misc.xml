@@ -4,10 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/kaique.gsilva9/Documents/ProjetoAndroid/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/kaique.gsilva9/Documents/ProjetoAndroid/app/src/main/res/layout/esqueceu_senha_layout.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/kaique.gsilva9/Documents/ProjetoAndroid/app/src/main/res/layout/login_layout.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/kaique.gsilva9/Documents/ProjetoAndroid/app/src/main/res/layout/menu_principal_layout.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/kaique.gsilva9/Documents/ProjetoAndroid/app/src/main/res/layout/sobre_layout.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/kaique.gsilva9/Documents/ProjetoAndroid/app/src/main/res/layout/splash_layout.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/kaique.gsilva9/Documents/ProjetoAndroid/app/src/main/res/menu/menu_principal.xml" value="0.271875" />
       </map>
     </option>
   </component>

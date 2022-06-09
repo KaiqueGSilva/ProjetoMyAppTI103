@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        app:showAsAction="never"
+        android:id="@+id/menuCadastrar"
+        android:icon="@drawable/ic_baseline_add"
+        android:title="Cadastrar" />
+
+    <item
+        app:showAsAction="always"
+        android:id="@+id/menuAlterar"
+        android:icon="@drawable/ic_baseline_edit"
+        android:title="Alterar" />
+
+    <item
+        app:showAsAction="withText"
+        android:id="@+id/menuExcluir"
+        android:icon="@drawable/ic_baseline_delete"
+        android:title="Excluir" />
+
+    <item
+        app:showAsAction="ifRoom"
+        android:id="@+id/menuPesquisar"
+        android:icon="@drawable/ic_baseline_search"
+        android:title="Pesquisar" />
+
+    <item
+        app:showAsAction="ifRoom"
+        android:id="@+id/menuSair"
+        android:icon="@drawable/ic_baseline_exit_to_app"
+        android:title="Sair" />
+
+
+
+</menu>
